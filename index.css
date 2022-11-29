@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo:ital,wght@1,500&family=Assistant:wght@200&family=Barlow+Condensed:wght@400;700&display=swap');
+body{
+    Font-size: 18px;
+    background-color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    overflow: hidden;
+    color:hsl(231, 7%, 65%);
+    }
+    .container{
+        position:relative;
+        margin-left:8rem;
+        }
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right:-1rem;
+    margin-top:-1rem;
+    text-transform: uppercase;
+    }
+.menupane{
+    background-color: hsl(207, 33%, 95%);
+    width:52%;
+    padding-left:7rem;
+    padding-bottom:17rem;
+    margin-left:45%;
+    border-bottom-left-radius: 3rem;
+}
+.navMenu li{
+float:left;
+padding:1rem;
+list-style: none;
+margin-top: 1.3rem;
+}
+#lgn {
+    list-style-type: disc;
+    color:hsl(231, 7%, 65%);
+   }
+#lgn a{
+    color:hsl(231, 7%, 65%);
+}
+.navMenu li a{
+    text-decoration: none;
+    color: hsl(230, 29%, 20%);
+    font-weight: 700;
+}
+.navMenu li a:hover{
+    text-decoration: underline;
+}
+.navlog{
+    margin-top:3rem;
+}
+.contents{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:10rem;
+    justify-content: space-between;
+    gap:7rem;
+}
+.text-contents{
+    margin-top: 3rem;
+}
+.text-contents h1{
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color:hsl(230, 29%, 20%);
+}
+.humburg,.close{
+    display:none;
+}
+.image-contents{
+width: 20rem;
+}
+.image-contents .svg{
+    width:52rem;
+    margin-left: 10rem;
+}
+.new{
+    background-color: hsl(230, 29%, 20%);
+    color:white;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-top:1px ;
+    padding-left:10px;
+    padding-bottom:1px;
+    padding-right:10px;
+    border-radius: 14px;
+}
+#intro{
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.btnSection{
+    margin-top:5rem;
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+}
+.btnSection span{
+    text-transform: uppercase;
+    margin-top: 5px;
+    color:hsl(231, 7%, 65%);
+}
+button:hover{
+    cursor:pointer;
+}
+.btnSection button{
+    background-color: hsl(0, 100%, 68%);
+    color:white;
+    padding: 8px;
+    font-family:'Barlow', sans-serif; ;
+    border: none;
+    border-radius: 5px;
+}
+.smMenu{
+    display:none;
+}
+@media(max-width:600px){
+    .container{
+        margin-left: 1rem;
+        font-size: 13px;
+    }
+.humburg{
+    display:block;
+    margin-top: 3rem;
+    margin-right:1rem;
+}
+.close{
+    visibility:none;
+    margin-top: -1rem;
+    margin-right:1rem;
+}
+.navMenu{
+    display:none;
+}
+.image-contents .svg{
+    margin-left: -12px;
+    width:28rem;
+    height: 15rem;
+}
+.contents{
+    display: flex;
+    flex-direction: column-reverse;
+    top:8rem;
+    gap:2rem;
+}
+.btnSection{
+    margin-top:2rem;
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+}
+.menupane{
+    padding-bottom: 22rem;
+}
+.smMenu{
+    visibility: hidden;
+    position: absolute;
+    top:6rem;
+    left:4rem;
+    width:10rem;
+    padding: 1rem 2rem 2rem 1rem;
+    background-color: white;
+    box-shadow:0 4px 8px 2px rgba(0,0,0,0.2),0 6px 2px 0 rgba(0,0,0,0.19);
+}
+.smMenu li,.menuDisplay li{
+    margin-left: 3.5rem;
+    padding-top: 1rem;
+    list-style: none;
+    text-transform: uppercase;
+}
+.smMenu li a,.menuDisplay li a{
+text-decoration: none;
+color:hsl(230, 29%, 20%);
+font-weight: 700;
+}
+#lgnf a{
+    color:hsl(231, 7%, 65%);
+}
+.setVisible{
+    visibility:visible;
+    margin-top: 3rem;
+    margin-right:1rem;
+}
+.noneDisplay{
+    display:none;
+}
+.menuDisplay{
+    visibility: visible;
+    position: absolute;
+    top:6rem;
+    left:4rem;
+    width:10rem;
+    padding: 1rem 2rem 2rem 1rem;
+    background-color: white;
+    box-shadow:0 4px 8px 2px rgba(0,0,0,0.2),0 6px 2px 0 rgba(0,0,0,0.19);
+}
+}
